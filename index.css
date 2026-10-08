@@ -57,5 +57,39 @@ body{
   align-items: center;
   padding: 0 10px;
   gap: 5px;
+  color: rgb(85, 85, 85);
   font-size: 15px;
 }
+.location-search{
+  width: 42px;
+  height: 45px;
+  border: 1px solid rgb(217, 217, 217);
+  border-left: none;
+  background: white;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  font-size: 15px;
+  color: rgb(23, 97, 181);
+}
+.main-search{
+  height: 45px;
+  flex: 1;
+  max-width: 520px;
+  display: flex;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius:5px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.main-search input{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+}
+.main-search input::placeholder{
+  colore: rgb(153, 153, 153);
+}
+
