@@ -25,15 +25,15 @@ body{
   gap: 5px;
 }
 .logo-circle{
-  widht: 35px;
+  width: 35px;
   height: 35px;
   border: 2px solid rgb(227, 37, 37);
   border-radius: 50%;
-  diaplay: flex;
+  display: flex;
   align-items: center;
   color: rgb(227, 37, 37);
   font-size: 15px;
-  font-widht: bold;
+  font-weight: bold;
   position: relative;
 }
 .logo-circle span:first-child{
