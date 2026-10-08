@@ -92,4 +92,31 @@ body{
 .main-search input::placeholder{
   color: rgb(153, 153, 153);
 }
+.carema{
+  width: 45px;
+  border: none;
+  background: white;
+  color: rgb(102, 102, 102);
+  font-size: 18px;
+}
+.search-btn{
+  width: 55px;
+  border: none;
+  background: rgb(7, 85, 184);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.best-price{
+  height: 45px;
+  padding: 0 20px;
+  margin-left: 10px;
+  background: white;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  
+  
+}
 
