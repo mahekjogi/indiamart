@@ -14,7 +14,7 @@ body{
   display: flex;
   align-items: center;
   padding: 0 28px;
-  gap: 0;
+  gap: -5;
   border-bottom: 1px solid 
   
 }
@@ -22,11 +22,11 @@ body{
   width: 220px;
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 3px;
 }
 .logo-circle{
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   border: 3px solid rgb(227, 37, 37);
   border-radius: 50%;
   display: flex;
@@ -37,7 +37,7 @@ body{
   position: relative;
 }
 .logo-circle span:first-child{
-  margin-right: 2px;
+  margin-right: 3px;
 }
 .logo-text b{
   display: block;
@@ -49,32 +49,32 @@ body{
   display: none;
 }
 .location-box{
-  height: 45px;
-  width: 145px;
+  height: 44px;
+  width: 115px;
   border: 1px solid rgb(217, 217, 217);
   border-radius: 5px;
   display: flex;
   align-items: center;
   padding: 0 10px;
-  gap: 5px;
+  gap: 0;
   color: rgb(85, 85, 85);
-  font-size: 15px;
+  font-size: 14px;
 }
 .location-search{
-  width: 42px;
-  height: 45px;
+  width: 40px;
+  height: 44px;
   border: 1px solid rgb(217, 217, 217);
   border-left: none;
   background: white;
   border-radius: 0 5px 5px 0;
-  margin-left: -5px;
-  font-size: 15px;
+  margin-left: -15px;
+  font-size: 16px;
   color: rgb(23, 97, 181);
 }
 .main-search{
-  height: 45px;
+  height: 44px;
   flex: 1;
-  max-width: 520px;
+  max-width: 380px;
   display: flex;
   border: 1px solid rgb(216, 216, 216);
   border-radius:5px;
@@ -93,14 +93,15 @@ body{
   color: rgb(153, 153, 153);
 }
 .carema{
-  width: 45px;
+  width: 70px;
   border: none;
   background: white;
   color: rgb(102, 102, 102);
   font-size: 18px;
+  cursor: pointer;
 }
 .search-btn{
-  width: 55px;
+  width: 50px;
   border: none;
   background: rgb(7, 85, 184);
   color: white;
@@ -108,15 +109,88 @@ body{
   cursor: pointer;
 }
 .best-price{
-  height: 45px;
+  height: 44px;
   padding: 0 20px;
-  margin-left: 10px;
+  margin-left:10px;
   background: white;
   border: 1px solid rgb(216, 216, 216);
   border-radius: 5px;
   color: rgb(51, 51, 51);
-  font-size: 15px;
-  
-  
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
 }
-
+.besr-price span{
+    margin-right: 7px;
+    color: rgb(85, 85, 85);
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+    padding-left: 20px;
+}
+.menu{
+    min-width: 48px;
+    direction: row;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    font-size: 11px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.menu-icon{
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 3px;
+}
+.menu:hover{
+    color: rgb(7, 85, 184);
+}
+.menu:hover .menu-icon{
+    color:rgb(7, 85, 184);
+}
+.main-part{
+    height: 500px;
+    background: radial-gradient(circle at 10% 80%, rgb(7, 85, 238),transparent 35%),
+    linear-gradient(rgb(113, 177, 220),rgb(9, 43, 145),rgb(8, 23, 107));
+    color: white;
+    text-align: center;
+    padding-top: 48px;
+}
+.main-part h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 27px;
+}
+.main-part h1 b{
+    font-weight: 700;
+}
+.main-part p{
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+.main-part-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.main-part-buttons button{
+    height: 48px;
+    padding: 0 27px;
+    border: none;
+    border-radius: 25px;
+    background: white;
+    color: rgb(23, 71, 157);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-part-buttons button:hover{
+    background: rgb(234, 241, 255);
+}
