@@ -4,7 +4,7 @@
   box-sizing:border-box;
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   background-color: rgb(241, 242, 244);
 }
 .navbar{
@@ -23,6 +23,7 @@ body{
   display: flex;
   align-items: center;
   gap: 3px;
+  margin-right: 0;
 }
 .logo-circle{
   width: 38px;
@@ -59,6 +60,7 @@ body{
   gap: 0;
   color: rgb(85, 85, 85);
   font-size: 14px;
+  margin-right: 0;
 }
 .location-search{
   width: 40px;
@@ -117,37 +119,40 @@ body{
   border-radius: 5px;
   color: rgb(51, 51, 51);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 400;
   white-space: nowrap;
 }
-.besr-price span{
-    margin-right: 7px;
+.best-price span{
+    margin-right: -7px;
     color: rgb(85, 85, 85);
 }
 .right-menu{
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-left: auto;
     gap: 20px;
     padding-left: 20px;
+    margin-top: 0;
 }
 .menu{
-    min-width: 48px;
-    direction: row;
+    min-width: 38px;
+    display: inline;
     text-align: center;
     color: rgb(85, 85, 85);
-    font-size: 11px;
+    font-size: 9px;
     white-space: nowrap;
     cursor: pointer;
+    margin-top: 0;
 }
 .menu-icon{
-    height: 23px;
-    display: flex;
+    height: 10px;
+    display: inline;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(85, 85, 85);
-    margin-bottom: 3px;
+    margin-bottom: 0;
 }
 .menu:hover{
     color: rgb(7, 85, 184);
@@ -156,9 +161,9 @@ body{
     color:rgb(7, 85, 184);
 }
 .main-part{
-    height: 500px;
+    height: 700px;
     background: radial-gradient(circle at 10% 80%, rgb(7, 85, 238),transparent 35%),
-    linear-gradient(rgb(113, 177, 220),rgb(9, 43, 145),rgb(8, 23, 107));
+    linear-gradient(rgb(202, 228, 245),rgb(9, 43, 145),rgb(8, 23, 107));
     color: white;
     text-align: center;
     padding-top: 48px;
@@ -193,4 +198,22 @@ body{
 }
 .main-part-buttons button:hover{
     background: rgb(234, 241, 255);
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    gap: 0;
+    font-size: 10px;
+    color: black;
+    background-color: white;
+
+}
+.box-image{
+    height: 100px;
+    width: 100px;
 }
