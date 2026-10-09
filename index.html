@@ -4,111 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IndiaMart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">
-        <div class="logo-circle">
-            <span>i</span>
-            <span>M</span>
-        </div>
-        <div class="logo-text">
-            <b>indiamart</b>
-            <small>India's Largest Online B2B Marketplace</small>
-        </div>
+        <div class="nav-logo border">
+            <div class="logo">
+            
+            </div>
+        
         </div>
         <!--location-->
         <div class="location-box">
-            <div class="location-icon">📍</div>
+            <div class="location-icon"><i class="fa-solid fa-location-dot" style="color: rgb(230, 16, 37);"></i></div>
             <span>Junagadh</span>
         </div>
         <button class="location-search">🔍</button>
         <!--main search-->
         <div class="main-search">
-            <input type="text" placeholder="Enter product/service to search">
-            <button class="camera">📷</button>
-            <button class="search-btn">🔍</button>
+            <input type="text" name="main-search" placeholder="Enter product/service to search">
+            <button class="camera"><i class="fa-solid fa-camera" style="color: rgb(85, 144, 125);"></i></button>
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass" style="color: rgb(239, 236, 236);"></i></button>
         </div>
         <button class="best-price">
            Get Best Price
         </button>
         <div class="right-menu">
             <div class="menu">
-                 <div class="menu-icon">🌐
-                    <span>Exporters</span></div>
+                 <div class="menu-icon" style="color: rgb(19, 20, 21);">🌐<br>
+                    <span>Exporters</span></div><br>
                 <div class="menu">
-                    <div class="menu-icon">🏪
-                        <span>Sell</span></div>
+                    
+                    <div class="menu-icon"style="color: rgb(19, 20, 21);">🏠<br>
+                        <span>Sell</span></div><br>
                 </div>
                  <div class="menu">
-                    <div class="menu-icon">❔
+                    <div class="menu-icon"style="color: rgb(19, 20, 21);">❔<br>
                         <span>Help</span></div>
                 </div>
                 <div class="menu">
-                    <div class="menu-icon">✉️
+                    <div class="menu-icon"style="color: rgb(19, 20, 21);">✉️<br>
                         <span>Messages</span></div>
                     
                 </div>
                 <div class="menu">
-                    <div class="menu-icon">👤
-                        <span>Sign In⌄</span></div>                                                                                  
+                    <div class="menu-icon" style="color: rgb(19, 20, 21);">👤<br>
+                        <span>Sign In</span></div>                                                                                  
                 </div>
             </div>
         </div>
     </nav>
         <section class="main-part">
-            <h1>India's Largest Online <b>B2B Marketplace</b></h1>
-            <p>Connecting 21 Cr+ Buyers with Trusted Sellers</p><br>
+            <div class="hero-band">
+            <h1 class="main-part-title">
+                <span class="main-part-title-light">India's Largest Online</span> 
+                <span class="main-part-title-strong">B2B Marketplace</span></h1>
+                <div class="hero-band-row" >
+                    <p class="hero-band-desc">Connecting 21 Cr+ Buyers with Trusted Sellers</p>
+                </div>
+                <br>
             <div class="main-part-buttons">
-    <div>
-        <strong>21Cr+</strong>
-        <span>BUYERS</span>
-    </div>
-
-    <div>
-        <strong>84L+</strong>
-        <span>SELLERS</span>
-    </div>
-
-    <div>
-        <strong>12Cr+</strong>
-        <span>PRODUCTS & SERVICES</span>
-    </div>
-
-    <div>
-        <strong>30 Years</strong>
-        <span>EMPOWERING BUSINESSES</span>
-    </div>
-        <button>
-            ▣  <b>Post Requirement</b> →
+                <div class="trust-stat-value">21<!-- -->Cr+</div>
+                <div class="trust-stat-label">Buyers</div>
+            <div class="trust-stat-value">84<!-- -->L+</div>
+            <div class="trust-stat-label">Sellers</div>
+            <div class="trust-stat-value">12<!-- -->Cr+</div>
+            <div class="trust-stat-label1">Products & Services</div>
+            <div class="trust-stat-value">30Years</div>
+            <div class="trust-stat-label1">Empowering Businesses</div>
+    
+        <button style="color: rgb(15, 125, 234);">📄
+              <b>Post Requirement</b> →
         </button>
-        <button>
-            📊 <b>Start Selling</b> →
+        <button style="color: rgb(42, 120, 31);">📊
+             <b>Start Selling</b> →
         </button>
-        <button>
-            ♙  <b>Sign In</b> →
+        <button style="color: rgb(255, 212, 59);">👤
+              <b>Sign In</b> →
         </button>
     </div>
-          <div class="shop-section">
-            <div class=" box box1">
-                <div class="box-image"></div>
+    </div>
+    <br>
+
+    <section class="trending-panel">
+        <header class="trending-panel-header">
+            <h2 class="trending-panel-title">Trending on IndiaMART</h2>
+        </header><br>
+        <div class="trending-panel-grid">
+            <div class="shop-section">
+            <div class=" box">
+                <img src="http://5.imimg.com/data5/GLADMIN/Default/2022/5/WG/MY/YH/81953/electric-scooter-500x500.jpg" alt="Electric Scooter" class="box-image" loading="lazy">
                 <h2>Electric Scooter</h2>
             </div>
-            <div class="box box2">
+            <div class="box">
+             <img src="http://4.imimg.com/data4/CY/FQ/GLADMIN-2/aromatic-incense-sticks-500x500.jpg" alt="Aromatic Incense Sticks" class="box-image" loading="lazy">	
                 <h2>Aromatic Incense Sticks</h2>
             </div>
-            <div class="box box3">
+            <div class="box">
+                <img src="http://5.imimg.com/data5/UH/BP/CH/GLADMIN-68087/kamdhenu-cow-and-calf-statue-500x500.jpg" alt="Kamadhenu Cow and Calf Statue" class="box-image" loading="lazy">
                 <h2>Kamadhenu Cow and Calf Statue</h2>
             </div>
-             <div class="box box4">
+             <div class="box">
+                <img src="http://3.imimg.com/data3/OV/WN/GLADMIN-6744/dupion-silk-500x500.jpg" alt="Dupion Silk" class="box-image" loading="lazy">
                 <h2>Dupion Silk</h2>
              </div>
-             <div class="box box5">
+             <div class="box">
+                <img src="http://3.imimg.com/data3/OL/YK/GLADMIN-142202/income-tax-consultant-500x500.jpg" alt="Income Tax Consultant" class="box-image" loading="lazy">
                 <h2>Income Tax Consultant</h2>
              </div>
-             <div class="box box6"><div class="box-image" style="background-image: url('air(1).jpg');"></div>
+             <div class="box">
+               <img src="http://3.imimg.com/data3/GM/RH/MY-2/air-hose-500x500.jpg" alt="Air Hose Pipe" class="box-image" loading="lazy">
                 <h2>Air Hose Pipe</h2>
+             </div>
+             <div class="box">
+                <img src="http://3.imimg.com/data3/GJ/RE/GLADMIN-1205/printed-labels-500x500.jpg" alt="Printed Labels" class="box-image" loading="lazy">
+                <h2>Printed Labels</h2>
+            </div>
+            <br>
+            <div class="box">
+                <img src="http://3.imimg.com/data3/BI/NQ/GLADMIN-21961/ammonium-bromide-500x500.jpg" alt="Ammonium Bromide" class="box-image" loading="lazy">
+                <h2>Ammonium Bromide</h2>
+            </div>
+             <div class="box">
+                <img src="http://3.imimg.com/data3/JE/XQ/GLADMIN-65500/disposable-toothbrushes-500x500.jpg" alt="Disposable Toothbrushes" class="box-image" loading="lazy">
+                <h2>TMT Bars</h2>
+             </div>
+             <div class="box">
+                <img src="http://5.imimg.com/data5/GLADMIN/Default/2023/2/TY/DV/NL/96165/acrylic-crockery-500x500.png" alt="Acrylic Crockery" class="box-image" loading="lazy">
+                <h2>Disposable Toothbrushes</h2>
+             </div>
+             <div class="box">
+                <img src="http://3.imimg.com/data3/CC/NV/GLADMIN-3219/air-regulators-500x500.jpg" alt="Air Regulators" class="box-image" loading="lazy">
+                <h2>Acrylic Crockery</h2>
+             </div>
+             <div class="box">
+                <img src="http://3.imimg.com/data3/LN/MQ/GLADMIN-21554/ac-power-supply-500x500.jpg" alt="AC Power Supply" class="box-image" loading="lazy">
+                <h2>Aluminium False Ceilings</h2>
              </div>
         </div>   
         </section>  
